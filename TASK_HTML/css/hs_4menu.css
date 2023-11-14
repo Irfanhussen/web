@@ -1,0 +1,116 @@
+body{
+    background-image:url('../taskmedia/menu.jpeg');
+    background-size: cover;
+}
+#abc{
+    display: block;
+    margin:200px 300px ;
+    /* border: 5px solid rgb(14, 176, 230);
+    padding: 10px;*/
+}
+
+.info{
+    color: white;
+    /* position: absolute;top: 200px;left: 250px; border: 5px solid black;*/
+}
+h4{
+    color: rgb(118, 243, 30);
+    text-align: end; 
+    /* border: 2px solid red; */
+}
+.menu{
+    display:flex;
+    margin-top: 50px;
+    justify-content: center;
+     /* border: 5px solid black; position: absolute;top: 380px;left: 420px; */
+}
+.a{
+    text-align: center;
+}
+img{
+    border: 4px solid red;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+img:hover{
+    border-radius:30px;
+}
+button{
+    font-size:medium;
+    padding: 10px;
+    background: red;
+    border-radius: 10px;
+}
+
+
+
+/* body{
+    background-image:url(../taskmedia/menu.jpeg);
+    background-size: cover;
+    
+}
+p{
+    color:yellowgreen;
+    font-size: 30px;
+    position: absolute;
+    top:25%;
+    left: 250px;
+}
+h5{
+    text-align: end;
+    color:yellowgreen;
+    font-size: 30px;
+    position: absolute;
+    top:35%;
+    right:400px;
+}
+#p2{
+    position: absolute;
+    top: 50%;
+    left: 500px;
+
+}
+#p3{
+    position: absolute;
+    top: 50%;
+    left: 700px;
+}
+#p4{
+    position: absolute;
+    top: 50%;
+    left: 900px;
+
+}
+#b1{
+    position: absolute;
+    top: 75%;
+    left: 550px;
+}
+#b2{
+    position: absolute;
+    top: 75%;
+    left: 750px;
+}
+#b3{
+    position: absolute;
+    top: 75%;
+    left: 950px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+img:hover{
+    border-radius:30px;
+}
+button{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 140px;
+    text-align: center;
+} */

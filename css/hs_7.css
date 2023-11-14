@@ -1,0 +1,80 @@
+/* pseudo elements */
+
+h1::first-letter,p::first-letter{
+    color: red;
+    text-transform: capitalize;
+}   /*  only target first letter */
+
+
+p::first-line{
+    text-shadow: 1px 1px 1px rgb(0, 153, 255);
+}   /*  only target first line */
+
+
+P::before,p::after{
+    content:"❤️";
+}    /* add content beffore and after the tag elements */
+
+/* P::after{
+    content:"❤️";
+} */
+
+
+
+p::selection{
+    text-shadow: 1px 1px 1px purple;
+}
+/* we can observe the given property only by selecting the element */
+
+
+/* box shadow */
+
+.main{
+    display: flex;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    /* margin: auto; */
+
+    box-shadow:20px 20px 20px 20px red;
+    /* h v b s */
+    /* here we given spread so it is spreading all sides of box */
+
+
+    margin-right: 100px;
+}
+
+
+
+#box{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+     box-shadow:10px 10px 20px rgb(0, 38, 255);
+        /* h v b */
+      /* here we not given spread so it is not spreading all sides of box */
+    margin-bottom: 100px;
+
+}
+
+#inset{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 250px;
+    width: 250px;
+    margin: auto;
+    box-shadow:10px 10px 10px inset blue;
+    margin-bottom: 100px;
+}
+
+
+/* float */
+img{
+    float: left;
+}
+

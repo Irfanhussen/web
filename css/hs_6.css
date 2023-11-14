@@ -1,0 +1,22 @@
+div{
+    border: 2px solid blue;
+    margin: 20px;
+}
+
+div p{
+    color: red;
+}
+
+
+div>h1{
+    color: blueviolet;
+}
+
+
+div+p{
+       text-align: end;
+}
+
+div~p{
+    border: 4px dashed greenyellow;
+ }

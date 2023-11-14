@@ -1,0 +1,17 @@
+img{
+    height: 100px;
+    width: 100px;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+div{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+dd{
+    margin-top: 10px;
+    color: red;
+}
+dt{
+    color: rgb(7, 100, 84);
+}

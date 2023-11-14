@@ -1,0 +1,38 @@
+body{
+    background-image: url(../taskmedia/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+}
+.section{
+    /* border: 2px solid white; */
+    height: 500px;
+    display: flex;
+}
+.info{
+    color: white;
+    width: 200px;
+    position: absolute;
+    top: 28%;
+}
+.form{
+    padding: 10px;
+    border: 2px solid yellowgreen;
+    border-radius: 20px;
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 30%;
+}
+input{
+    margin: 10px;
+}
+button{
+    padding: 2px 15px;
+   margin: 10px 0px;
+   border-radius: 20px;
+   position: relative;
+   left: 58px;
+}

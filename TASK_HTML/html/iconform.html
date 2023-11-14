@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+        body{
+            background: rgb(225, 220, 220);
+        }
+        fieldset{
+           width: 350px;
+           border: 4px solid white;
+           border-radius: 15px;
+        }
+        table i{
+            position: relative;
+            right: 21px;
+        }
+        .bt{
+            text-align: center;
+        }
+        input{
+            box-shadow: 2px 2px 2px black;
+        }
+        button{
+            box-shadow: 2px 2px 2px black;
+            border-radius: 5px;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <table cellspacing="20">
+            <tr>
+                <td>
+                    <label for="us">User Name:</label>
+                </td>
+                <td>
+                    <input type="text" id="us" placeholder="Enter Name">
+                    <i class="fa fa-user"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ps">Password:</label>
+                </td>
+                <td>
+                    <input type="tel" id="ps" placeholder="Enter Password">
+                    <i class="fa fa-lock"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="cn">Contact:</label>
+                </td>
+                <td>
+                    <input type="tel" id="cn" placeholder="Enter Contact" maxlength="10">
+                    <i class="fa fa-contact-book"></i>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="em">Email:</label>
+                </td>
+                <td>
+                    <input type="email" name="" id="em" placeholder="Enter Email">
+                    <i class="fa fa-envelope"></i>
+                </td>
+            </tr>
+        </table>
+        <div class="bt">
+            <button>Submit</button>
+            <i class="fa-solid fa-circle-check" style="color: #000000;"></i>
+          
+        </div>
+       </fieldset>
+    </form>
+  </body>
+</html>

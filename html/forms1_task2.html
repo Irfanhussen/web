@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+     body{
+      margin:auto;
+      width: 500px;
+      background-color: rgb(146, 208, 208);
+     }
+
+        fieldset{
+          border-radius: 40px;
+            width: 100%;
+            height:697px;
+        }
+
+        legend{
+          text-align: center;
+        }
+
+        table{
+          margin-top: 20px;
+          margin-left: 20px;
+        }
+        
+        label{
+          font-style: oblique;
+        }
+       
+
+        input,select,textarea{
+          color: rgb(131, 69, 69);
+          margin: 8px;
+          padding: 3px;
+          border-radius: 20px;
+          border: 2px solid rgb(101, 221, 237);
+        }
+
+
+        button{
+          margin-top: 20px;
+          padding: 5px;
+          border-radius: 20px;
+          color: rgb(255, 0, 0);
+          background:orange;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="no php" >
+      <fieldset
+        style="
+          border: 2px solid rgb(235, 20, 12);
+          background-color: rgb(216, 186, 127);
+        "
+      >
+        <legend style="font-size: larger"><b>Registration Form</b></legend>
+        <table>
+          <tr>
+            <td>
+              <label for="nam">Name :</label>
+            </td>
+            <td>
+              <input type="text" id="nam" placeholder="Enter Name" autofocus>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="con">Contact:</label>
+            </td>
+            <td>
+              <input type="tel" id="con" maxlength="10" placeholder="Enter Contact">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="mail">Email:</label>
+            </td>
+            <td>
+              <input type="email" id="mail" placeholder="Enter Email" required>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="alt">Alternate Contact:</label>
+            </td>
+            <td>
+              <input type="tel" id="alt" maxlength="10" placeholder="Enter Alt Contact">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="add">Address:</label>
+            </td>
+            <td>
+              <textarea rows="5" cols="20" id="add" placeholder="Enter Address"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="gen">Gender:</label>
+            </td>
+            <td>
+              <input type="radio" id="gen" name="gender" >Male
+              <input type="radio" id="gen" name="gender" >Female
+              <input type="radio" id="gen" name="gender" >Other
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="adhar">Adhar Number:</label>
+            </td>
+            <td>
+              <input type="tel" id="adhar" maxlength="12" placeholder="Enter Adhar">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="pan">PanNO:</label>
+            </td>
+            <td>
+              <input type="tel" id="pan" maxlength="10" placeholder="Enter Pan">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="vot">VoterId:</label>
+            </td>
+            <td>
+              <input type="radio" id="vot" name="card" >Yes
+              <input type="radio" name="card" id="vot" >No
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="passport">Passport</label>
+            </td>
+            <td>
+              <input type="radio" name="pass" id="passport" >Yes
+              <input type="radio" name="pass" id="passport" >No
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="dob">Date Of Birth:</label>
+            </td>
+            <td>
+              <input type="date" name="birth" id="dob" >
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="nat">Nationality :</label>
+            </td>
+            <td>
+              <select name="nation" id="nat">
+                <option value=""></option>
+                <option value="ind">INDIAN</option>
+                <option value="us">American</option>
+                <option value="uk">British</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="dat">Date:</label>
+            </td>
+            <td>
+              <input type="date" id="dat">
+            </td>
+          </tr>
+
+          <tr>
+            <td align="left">
+             <button>Reset</button>
+            </td>
+            <td align="right">
+               <button>Submit</button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

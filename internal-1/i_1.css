@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(235, 52, 52);
+}
+
+.main{
+    margin-top: 200px;
+    display: flex;
+}
+
+
+
+#a{
+    /* border: 2px solid black; */
+    width:50%;
+    text-align: center;
+    margin-right: 20px;
+}
+#a h1{
+    color: white;
+    font-size:50px;
+    text-shadow: 2px 2px 2px black;
+}
+button{
+    box-shadow: 1px 1px 1px 1px rgb(7, 7, 13);;
+    background: rgb(134, 134, 222);
+    border-radius: 10px;
+    padding: 10px 40px;
+}
+
+
+
+#b{
+
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid rgb(228, 203, 152);
+    width: 500px;
+    text-align: center;
+    background-color: rgb(228, 203, 152);
+    box-shadow: 30px 50px 50px 40px orange;
+}
+
+
+
+
+input{
+    border-radius: 5px;
+    padding: 5px 0px;
+    box-shadow: 2px 2px 2px black;
+}
+
+select{
+    border-radius: 5px;
+   color: white;
+   background: red;
+   padding: 5px 10px;
+   margin-right:40px;
+}
+
+#sn{
+    position: relative;
+    left: 165px;
+}
+#me{
+    padding: 5px 166px;
+}
+#ps{
+    padding: 5px 166px;
+}
+

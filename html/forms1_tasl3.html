@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+   <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+     body{
+      margin:auto;
+      width: 500px;
+      background-color: rgb(146, 208, 208);
+     }
+
+        fieldset{
+          border-radius: 40px;
+            width: 100%;
+            height:auto;
+        }
+
+        legend{
+          text-align: center;
+        }
+
+        table{
+          margin-top: 20px;
+          margin-left: 20px;
+        }
+        
+        label{
+          font-style: oblique;
+        }
+       
+
+        input,select,textarea{
+          color: rgb(131, 69, 69);
+          margin: 8px;
+          padding: 3px;
+          border-radius: 20px;
+          border: 2px solid rgb(101, 221, 237);
+        }
+
+
+        button{
+          width: 100px;
+          margin: 20px;
+          padding: 5px;
+          border-radius: 20px;
+          color: rgb(255, 0, 0);
+          background:orange;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="no php" >
+      <fieldset
+        style="
+          border: 2px solid rgb(235, 20, 12);
+          background-color: rgb(216, 186, 127);
+        "
+      >
+        <legend style="font-size: larger"><b>Engineering Admission Form</b></legend>
+        <table>
+          <tr>
+            <td>
+              <label for="nam">First Name :</label>
+            </td>
+            <td>
+              <input type="text" id="nam" placeholder="Enter Name" autofocus>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="nam">Last Name :</label>
+            </td>
+            <td>
+              <input type="text" id="nam" placeholder="Enter Name" autofocus>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="con">Contact:</label>
+            </td>
+            <td>
+              <input type="tel" id="con" maxlength="10" placeholder="Enter Contact">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="alt">Alternate Contact:</label>
+            </td>
+            <td>
+              <input type="tel" id="alt" maxlength="10" placeholder="Enter Alt Contact">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="mail">Email:</label>
+            </td>
+            <td>
+              <input type="email" id="mail" placeholder="Enter Email" required>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <label for="add">Address:</label>
+            </td>
+            <td>
+              <textarea rows="2" cols="20" id="add" placeholder="Enter Address"></textarea>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="adhar">Adhar Number:</label>
+            </td>
+            <td>
+              <input type="tel" id="adhar" maxlength="12" placeholder="Enter Adhar">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="pan">PanNO:</label>
+            </td>
+            <td>
+              <input type="tel" id="pan" maxlength="10" placeholder="Enter Pan">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="pin">Pin Code:</label>
+            </td>
+            <td>
+              <input type="tel" id="pin"placeholder="Enter Pin Code">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="scl">School Name:</label>
+            </td>
+            <td>
+              <input type="text" id="scl"placeholder="Enter School Name:">
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <label for="passing">YOP:</label>
+            </td>
+            <td>
+              <input type="date" id="passing"placeholder="Enter Year Of Passing">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="per">Percentage:</label>
+            </td>
+            <td>
+              <input type="number" id="per"placeholder="Enter Percentage">
+            </td>
+          </tr>
+
+
+
+          <tr>
+            <td>
+                <label for="clg">Inter College</label>
+            </td>
+            <td>
+                <select name="names" id="clg">
+                    <option value="">Enter Clg</option>
+                    <option value="">Narayana</option>
+                    <option value="">Chaitanya</option>
+                    <option value="">Raos</option>
+            
+                </select>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <label for="passing">Inter 1st YOP:</label>
+            </td>
+            <td>
+              <input type="date" id="passing"placeholder="Enter Year Of Passing">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="per">Inter 1st Percentage:</label>
+            </td>
+            <td>
+              <input type="number" id="per"placeholder="Enter Percentage">
+            </td>
+          </tr>
+          
+          <tr>
+            <td>
+              <label for="passing">Inter 2nd YOP:</label>
+            </td>
+            <td>
+              <input type="date" id="passing"placeholder="Enter Year Of Passing">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="per">Inter 2nd Percentage:</label>
+            </td>
+            <td>
+              <input type="number" id="per"placeholder="Enter Percentage">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <label for="per">Emcet Rank:</label>
+            </td>
+            <td>
+              <input type="number" id="per"placeholder="Enter Emcet Rank">
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+                <label for="clg">Engineering Colleges</label>
+            </td>
+            <td>
+                <select name="names" id="clg">
+                    <option value="">Enter Clg Name</option>
+                    <option value="">PERI</option>
+                    <option value="">REC</option>
+                    <option value="">PANIMALAR</option>
+                    <option value="">SVCN</option>
+                    <option value="">KLU</option>
+                    <option value="">GITHAMS</option>
+                    <option value="">PRATHYUSHA</option>
+                    <option value="">JNN</option>
+                    <option value="">DANISH</option>
+                    <option value="">MALLAREDDY</option>
+                    <option value="">LPU</option>
+                    <option value="">CMR</option>
+                    <option value="">SAINT PETERS</option>
+                    <option value="">MREC</option>
+                    <option value="">MRCE</option>
+                    <option value="">MRITS</option>
+                    <option value="">CMR IT</option>
+                    <option value="">CMREC</option>
+                    <option value="">CMR CET</option>
+                    <option value="">MLR IT</option>
+                </select>
+            </td>
+          </tr>
+
+         <tr>
+            <td>
+                <label for="uni">University</label>
+            </td>
+            <td>
+
+                <input type="checkbox" id="uni" >ANNA
+                <input type="checkbox" id="uni" >MALLAREDDY <br>
+                <input type="checkbox" id="uni" >JNTU
+                <input type="checkbox" id="uni"  >KLU
+
+              <!-- <select name="" id="uni">
+                <option value="">Enter University</option>
+                <option value="uni">ANNA UNIVERSITY</option>
+                <option value="uni">JNTU UNIVERSITY</option>
+                <option value="uni">KLU UNIVERSITY</option>
+                <option value="uni">MALLAREDDY UNIVERSITY</option>
+                <option value="uni">LPU UNIVERSITY</option>
+              </select> -->
+            </td>
+         </tr>
+
+        <tr>
+                <td>
+                   <label for="str">Stream:</label>
+                </td>
+                <td>
+                    <select name="stream" id="str">
+                        <option value="">Enter Stream</option>
+                        <option value="">ECE</option>
+                        <option value="">MECH</option>
+                        <option value="">CSE</option>
+                        <option value="">IT</option>
+                        <option value="">CIVIL</option>
+                        <option value="">ROBOTICS</option>
+                        <option value="">EEE</option>
+                        <option value="">MEGATRONICS</option>
+                        <option value="">AI</option>
+                    </select>
+                </td>
+        </tr>
+
+
+        <tr>
+               <td>
+                <label for="scholor">Scholorship:</label>
+               </td>
+               <td>
+                <input type="radio" name="Scholorship" id="scholor">Eligible
+                <input type="radio" name="Scholorship" id="scholor">Not Eligible
+               </td>
+            
+
+        </tr>
+
+          <tr>
+            <td align="left">
+             <button>Reset</button>
+            </td>
+            <td align="right">
+               <button>Submit</button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </body>
+</html>

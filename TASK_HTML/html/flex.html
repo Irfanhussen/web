@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex{
+            height: 300px;
+            border: 2px solid red;
+            background: bisque;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+        }
+        a img{
+            transition-property: border-radius;
+            transition-duration: 1s;
+            /* transition-timing-function:ease-in-out; */
+            transition-delay: 1ms;
+            border: 2px solid blue;
+        }
+        a img:hover{
+            border-radius: 50%;
+            border: 2px solid rgb(255, 0, 195);
+        }
+
+    </style>
+</head>
+<body>
+        <div class="flex">
+            <a href="../html/f1.html" target="_blank"><img src="../taskmedia/student.png" alt="">  
+           </a>
+            <a href="../html/f2.html" target="_self"><img src="../taskmedia/admin.png" alt="">
+           </a>
+            <a href="../html/f3.html" target="_blank"><img src="../taskmedia/manager.jpg" alt="">
+           </a>
+       </div>
+</body>
+</html>

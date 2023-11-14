@@ -1,0 +1,63 @@
+body{
+    background-color: bisque;
+}
+
+.wa{
+    display: flex;
+    flex-direction: column;
+    height:680px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../taskmedia/wa1.jpg);
+    background-size: cover;
+}
+img{
+    border-radius: 30px;
+    border: 1px solid black;
+}
+.info{
+    margin-top: 20px;
+    font-size: larger;
+    color: white;
+    font-weight: 800;
+}
+.noti{
+    background-color: red;
+    color: white;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 50px;
+    bottom: 165px;
+}
+
+/* .wa{
+    height:680px;
+    width: 300px;
+    margin: auto;
+    border: 2px solid black;
+    background-image: url(../taskmedia/wa1.jpg);
+    background-size: cover;
+}
+.im{
+    position: relative;
+    top: 40%;
+    left: 33%;
+}
+.info{
+    position: relative;
+    top: 40%;
+    left: 35%;
+}
+.noti{
+    position: relative;
+    left:190px;
+    top: 110px;
+} */
