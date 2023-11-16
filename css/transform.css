@@ -1,0 +1,26 @@
+div{
+    height: 100px;
+    width: 200px;
+    border: 2px solid red;
+    background: bisque;
+}
+.inner{
+    background: yellow;
+    /* change position from x-axis and y -axis */
+    transform: translate(100px,50px);
+    /* rotate */
+    transform: rotate(90deg);
+    /* to increase height and width decimals for decreasing numeric for increasing 
+    process id it multiplies 0.5 with original width and 2 with height*/
+    transform: scale(0.5,2);
+    /* bend toward x-axis */
+    transform: skew(20deg)
+    /* or skewX(20deg)  */
+
+     /* bend toward y-axis */
+    /* transform: skewY(20deg) */
+}
+.main{
+    height: 500px;
+    width: 500px;
+}
