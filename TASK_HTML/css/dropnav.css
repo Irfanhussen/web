@@ -1,0 +1,14 @@
+nav{
+    border: 2px solid red;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin:0px 50px;
+}
+select{
+    border: none;
+    width: 100px;
+}
