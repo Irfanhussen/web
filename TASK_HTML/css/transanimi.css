@@ -1,0 +1,61 @@
+body{
+    background: red;
+}
+input{
+    padding: 5px;
+    width:180px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px black;
+}
+button{
+    padding: 5px;
+    letter-spacing: 3px;
+    width:180px;
+    background:greenyellow;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px black;
+    font-weight: bolder;
+}
+#a{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    animation: a 2s ease-in-out 0s infinite normal;
+}
+@keyframes a {
+    0%{
+        top: 0%;
+        /* left: 50%; */
+        transform: rotate(-20deg);
+
+    }
+
+    100%{
+        top: 40%;
+        /* left: 50% */
+    }
+    
+}
+
+
+#b{
+    position: absolute;
+    bottom: 0%;
+    left:45%;
+    animation: b 2s ease-in-out 0s infinite normal;
+}
+@keyframes b {
+    0%{
+        bottom: 0%;
+        /* left: 50%; */
+        transform: rotate(-20deg);
+
+    }
+
+    100%{
+      bottom: 40%;
+    }
+}
