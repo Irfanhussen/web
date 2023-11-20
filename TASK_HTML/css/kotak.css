@@ -1,0 +1,98 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+nav {
+  overflow: hidden;
+  margin: 5px;
+}
+#sym {
+  float: left;
+}
+#Eng {
+  float: right;
+}
+
+section {
+  display: flex;
+  min-height: 657px;
+}
+.a {
+  width: 50%;
+  /* border: 2px solid red; */
+  margin: 0px 5px;
+}
+.a1 {
+  padding-top: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 300px;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+h1 {
+  margin: 5px;
+}
+
+.b {
+  width: 50%;
+  /* border: 2px solid red; */
+  margin: 0px 5px;
+  text-align: center;
+}
+.button{
+    /* width: 200px; */
+    /* margin: auto; */
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 200px;
+    /* border: 2px solid red; */
+    color: white;
+    background: rgb(69, 69, 227);
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+#i{
+    position: relative;
+    top: 4px;
+    left:35px;
+}
+
+#p::before {
+    content: '____________';
+}
+#p::after{
+    content: '______________';
+}
+fieldset{
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    text-align:start;
+}
+input{
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 2px solid rgb(109, 107, 107);
+}
+#pin{
+    margin: 0px;
+}
+#pi{
+    margin: 0px;
+    font-size: small;
+}
+.last{
+    margin-top: 10px;
+}
+#bi{
+    margin-top:20px;
+    border: 0px solid rgb(109, 107, 107);
+    border-radius: 5px;
+}
+
+
