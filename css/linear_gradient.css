@@ -8,6 +8,15 @@ div{
     border: 4px solid white;
 }
 
+.f{
+    background-image: radial-gradient(circle,red 5%,pink 8%,rgb(0, 0, 0) 10%);
+    /* background-image:radial-gradient(ellipse,red 5%,pink 8%,rgb(0, 0, 0) 10%); */
+    /* background-image: repeating-radial-gradient(ellipse,red 5%,pink 8%,rgb(0, 0, 0) 10%); */
+    /* background-image: repeating-radial-gradient(circle,red 5%,pink 8%,rgb(0, 0, 0) 10%); */
+   
+}
+
+
 .a{
     background-image: linear-gradient(red,black,white,yellow);
 }
@@ -23,12 +32,13 @@ div{
 .e{
     background-image:repeating-linear-gradient(75deg,black 10%,red 30%,yellow);
 }
-.f{
-    background-image: radial-gradient(red,pink,rgb(0, 0, 0));
-}
 .g{
     color: white;
     text-align: center;
-    background-image: linear-gradient(45deg,red 1%,yellow 20%,green 30%,black 55%,rgb(107, 76, 201) 70%,black 75%,rgb(219, 17, 202) 90%);
+    background-image: linear-gradient(to right,red 1%,yellow 20%,green 30%,black 55%,rgb(107, 76, 201) 70%,black 75%,rgb(219, 17, 202) 90%);
     font-size: xx-large;
+}
+.h{
+    background-image: conic-gradient(rgb(211, 35, 182),green,blue);
+
 }
