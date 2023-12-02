@@ -43,8 +43,12 @@ console.log(str);
 str = str.replaceAll("god", "abc");
 console.log(str);
 
-var str = ' she sells seashells ny the seashore the shells she sells are surely seashells. so if she sells shells on the seashore,i am sure she sells seashore shells '
+var str = 'she sells seashells by the seashore the shells she sells are surely seashells. so if she sells shells on the seashore,i am sure she sells seashore shells '
 console.log(str);
-str = str.replaceAll("sells", "dont sell");
-console.log(str);
+var str1=(str.slice(0,88));
+console.log(str1);
+var str2=(str.slice(89));
+console.log(str2);
+str2 = str2.replace("sell", "dont sell");
+console.log(str1,str2);
 
